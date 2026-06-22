@@ -1,0 +1,33 @@
+﻿{
+    "scripts":  {
+                    "generateSample":  "scripts/generate-sample.py",
+                    "mdToDocx":  "scripts/md-to-docx.py"
+                },
+    "description":  "Codex + GitHub + Markdown + Word 自动生成工作流 - 中国建筑行业标准文档生成",
+    "skills":  [
+                   {
+                       "name":  "construction-doc-gen",
+                       "path":  "skills/construction-doc-gen"
+                   },
+                   {
+                       "name":  "safety-inspection",
+                       "path":  "skills/safety-inspection"
+                   },
+                   {
+                       "name":  "quality-audit",
+                       "path":  "skills/quality-audit"
+                   }
+               ],
+    "version":  "1.0.0",
+    "author":  "Nash-ST",
+    "githubActions":  "actions/",
+    "name":  "construction-ai-workflow",
+    "templates":  {
+                      "contract":  "templates/contract",
+                      "quality":  "templates/quality",
+                      "safety":  "templates/safety",
+                      "construction":  "templates/construction",
+                      "report":  "templates/report"
+                  },
+    "displayName":  "建筑工程AI工作流"
+}
